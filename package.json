@@ -1,0 +1,16 @@
+{
+    "name": "eventure-socket-server",
+    "version": "1.0.0",
+    "description": "Socket Server for Eventure - an Event Management Application",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nishil Faldu",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "socket.io": "^4.7.5"
+    }
+}
